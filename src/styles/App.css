@@ -1,0 +1,52 @@
+/* Default Light Mode Styles */
+body {
+    /* background-color: #ffffff;
+    color: #333333;
+    font-family: 'Roboto', sans-serif; */
+   
+        background-image: url('../assets/porfolio.jpg'); /* Adjust the path if the image is in a different directory */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #000000 !important; /* Dark black background */
+    color: #c4bbbb !important; /* Light grey text */
+}
+
+
+
+
+.dark-mode .footer {
+    background: #000000; /* Dark black background */
+    color: #d3d3d3; /* Light grey text */
+    border-color: #000000;
+}
+
+.dark-mode .section {
+    background: #1a1a1a; /* Slightly lighter black for sections */
+    color: #d3d3d3; /* Light grey text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .section-title {
+    border-bottom-color: #d3d3d3; /* Light grey border */
+    color: #d3d3d3; /* Light grey text */
+}
+
+.dark-mode .skill {
+    background: #333333; /* Dark grey background for skills */
+    color: #d3d3d3; /* Light grey text */
+}
+
+/* Blue color for headings, subheadings, and name */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: #ffffffe8; /* DodgerBlue color */
+}
